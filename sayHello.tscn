@@ -1,0 +1,45 @@
+[gd_scene format=1]
+
+[node name="Panel" type="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 132.0
+margin/top = 91.0
+margin/right = 354.0
+margin/bottom = 271.0
+
+[node name="Label" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 79.0
+margin/top = 31.0
+margin/right = 119.0
+margin/bottom = 45.0
+text = "Hello godot"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Button" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 88.0
+margin/right = 152.0
+margin/bottom = 108.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "press me"
+flat = false
+
+
